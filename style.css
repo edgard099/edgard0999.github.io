@@ -1,0 +1,65 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f2; /* Fondo rosado claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ff99cc; /* Encabezado rosado */
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    color: #ff66b2;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 300px;
+    height: auto;
+    border: 5px solid #ff66b2; /* Marco rosa */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+/* Efecto cuando pasas el cursor sobre la imagen */
+.images img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta la sombra */
+}
+
+/* Efecto al hacer clic en la imagen */
+.images img:active {
+    transform: scale(0.9); /* Reduce un poco la imagen al hacer clic */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra reducida */
+}
+
+footer {
+    background-color: #ff99cc;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

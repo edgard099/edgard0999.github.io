@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía */
+    background-color: #ffe6f0; /* Color de fondo */
+    color: #333; /* Color del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff66b2; /* Color del encabezado */
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem; /* Tamaño de fuente para el título */
+    margin: 0; /* Margen superior e inferior */
+}
+
+h2 {
+    color: #ff3399; /* Color para los subtítulos */
+    margin: 20px 0; /* Margen para los subtítulos */
+}
+
+nav {
+    margin: 20px 0; /* Espaciado de navegación */
+}
+
+nav button {
+    background-color: #ff3399; /* Color de fondo de los botones */
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    margin: 0 5px; /* Espaciado entre botones */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+nav button:hover {
+    background-color: #ff4d94; /* Color de fondo al pasar el mouse */
+}
+
+nav a {
+    color: white; /* Color del texto en los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+section {
+    margin: 20px; /* Margen para las secciones */
+    padding: 20px; /* Relleno para las secciones */
+    border-radius: 10px; /* Esquinas redondeadas */
+    background-color: #fff; /* Color de fondo de las secciones */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.gallery {
+    display: flex; /* Disposición en flexbox */
+    justify-content: center; /* Centra el contenido */
+    gap: 10px; /* Espaciado entre imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten */
+}
+
+.gallery img {
+    width: 200px; /* Ancho de las imágenes */
+    height: 200px; /* Alto de las imágenes */
+    object-fit: cover; /* Mantiene la proporción de las imágenes */
+    border-radius: 10px; /* Esquinas redondeadas para las imágenes */
+    transition: transform 0.3s; /* Transición suave para el hover */
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+footer {
+    margin-top: 20px; /* Margen superior para el pie de página */
+    padding: 10px; /* Relleno para el pie de página */
+    background-color: #ff66b2; /* Color de fondo del pie de página */
+    color: white; /* Color del texto en el pie de página */
+}
+.float-left {
+    float: left; /* Hace que la imagen flote a la izquierda */
+    margin: 10px; /* Margen alrededor de la imagen */
+    width: 300px; /* Ancho de la imagen */
+}
+
+.float-right {
+    float: right; /* Hace que la imagen flote a la derecha */
+    margin: 10px; /* Margen alrededor de la imagen */
+    width: 300px; /* Ancho de la imagen */
+}
+
+
+
